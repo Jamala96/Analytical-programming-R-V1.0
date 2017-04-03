@@ -16,7 +16,7 @@
   Output: "When you are at the R prompt
   Typing skip() allows you to skip the current question."
   
- - Class: text
+- Class: text
   Output: "Typing play() lets you experiment with R on your own; swirl will ignore what you do...
   UNTIL you type nxt() which will regain swirls attention."
   
