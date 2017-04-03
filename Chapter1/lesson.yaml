@@ -7,28 +7,11 @@
   Version: 1.0
 
 - Class: text
-  Output:  "Important information!!!"
+  Output:  "Important information"
   
 - Class: text
   Output: " You can exit swirl and return to the R prompt at any time by pressing the Esc key. /n If you are already at the prompt, type bye() to exit and save your progress. When you exit properly, you will see a short message letting you know you have done so."
-
-- Class: text
-  Output: "When you are at the R prompt
-  Typing skip() allows you to skip the current question."
-  
-- Class: text
-  Output: "Typing play() lets you experiment with R on your own; swirl will ignore what you do...
-  UNTIL you type nxt() which will regain swirls attention."
-  
-- Class: text
-  Output:"Typing bye() causes swirl to exit. Your progress will be saved."
-  
-- Class: text
-  Output:"Typing main() returns you to swirls main menu."
-  
-- Class: text
-  Output:"Typing info() displays these options again."
- 
+   
 - Class: text
   Output: "Lets get started"
 
