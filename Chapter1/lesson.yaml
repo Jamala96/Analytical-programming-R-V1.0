@@ -24,7 +24,7 @@
   Lets get started
 
 - Class: text
-  Output: Welcome to Interactive R learning tool preperad by Center for Health Systems Innovation.
+  Output: Welcome to Interactive R learning tool preperad by Center for Health Systems Innovation using swirlify (Thanks to Sean Kross and swirl team).
   
 - Class: text
   Output: In this lesson, we will explore some basic building blocks of the R programming
