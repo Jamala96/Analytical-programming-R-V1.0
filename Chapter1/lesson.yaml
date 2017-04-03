@@ -9,11 +9,11 @@
 - Class: text
   Output:   Important information
   
-  You can exit swirl and return to the R prompt (>) at any time by pressing the Esc key. If you are already at 
+  You can exit swirl and return to the R prompt at any time by pressing the Esc key. If you are already at 
   the prompt, type bye() to exit and save your progress. When you exit properly, you'll see a short message
   letting you know you've done so.
 
- When you are at the R prompt (>)
+ When you are at the R prompt
   Typing skip() allows you to skip the current question.
   Typing play() lets you experiment with R on your own; swirl will ignore what you do...
   UNTIL you type nxt() which will regain swirl's attention.
