@@ -10,7 +10,7 @@
   Output:  "Important information!!!"
   
 - Class: text
-  Output: " You can exit swirl and return to the R prompt at any time by pressing the Esc key. If you are already at the prompt, type bye() to exit and save your progress. When you exit properly, you will see a short message letting you know you have done so."
+  Output: " You can exit swirl and return to the R prompt at any time by pressing the Esc key. /n If you are already at the prompt, type bye() to exit and save your progress. When you exit properly, you will see a short message letting you know you have done so."
 
 - Class: text
   Output: "When you are at the R prompt
