@@ -12,9 +12,9 @@
     system of your machine."
 
 - Class: text
-  Output: "Because different operating systems have different conventions with 
+  Output: Because different operating systems have different conventions with 
   regards to things like file paths, the outputs of these commands may vary 
-  across machines."
+  across machines.
 
 - Class: text
   Output: However it's important to note that R provides a common API (a common
