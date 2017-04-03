@@ -36,18 +36,18 @@
   Hint: Type 4 + 5 and press Enter.
   
 - Class: cmd_question
-  Output: Let's do more practise. Try log(12) and see the result.
-  CorrectAnswer: log(12) * 
-  AnswerTests: omnitest(correctExpr='log (12)')
-  Hint: Type log (12) and press Enter.
+  Output: Let's do more practise. Try sqrt(9) and see the result.
+  CorrectAnswer: sqrt(9) * 
+  AnswerTests: omnitest(correctExpr='sqrt(9)')
+  Hint: Type sqrt(9) and press Enter.
 
 - Class: text
-  Output: R simply prints the result of 2.484907 by default. However, R is a programming
+  Output: R simply prints the result of 3 by default. However, R is a programming
     language and often the reason we use a programming language as opposed to a calculator
     is to automate some process or avoid unnecessary repetition.
 
 - Class: text
-  Output: In this case, we may want to use our result from above in a second calculation.
+  Output: In this case, we may want to use our result from above in the calculation.
     Instead of retyping 4 + 5 every time we need it, we can just create a new variable
     that stores the result.
 
