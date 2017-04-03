@@ -7,7 +7,7 @@
   Version: 1.0
 
 - Class: text
-  Output:   Important information
+  Output:  "Important information
   
   You can exit swirl and return to the R prompt at any time by pressing the Esc key. If you are already at 
   the prompt, type bye() to exit and save your progress. When you exit properly, you will see a short message
@@ -21,7 +21,7 @@
   Typing main() returns you to swirls main menu.
   Typing info() displays these options again.
 
-  Lets get started
+  Lets get started"
 
 - Class: text
   Output: Welcome to Interactive R learning tool preperad by Center for Health Systems Innovation using swirlify (Thanks to Sean Kross and swirl team).
