@@ -7,7 +7,18 @@
   Version: 1.0
 
 - Class: text
-  Output: "In this lesson, you'll learn how to examine your local workspace in R 
+  Output: "In this lesson, you'll be asked some questions about the R basics and R history."
+
+- Class: mult_question
+  Output: "Which of the statement is NOT CORRECT ?"
+  AnswerChoices: R is an integrated suite of software facilities for data manipulation, calculation and graphical display; R is supported on several platforms; You need to pay for the R Studio after one year of use
+  CorrectAnswer: "You need to pay for the R Studio after one year of use"
+  AnswerTests: word= "You need to pay for the R Studio after one year of use"
+  
+  Hint: "R is free-- you don`t need to pay a penny"
+
+- Class: text
+  Output: "Now, let`s learn how to examine your local workspace in R 
     and begin to explore the relationship between your workspace and the file 
     system of your machine."
 
