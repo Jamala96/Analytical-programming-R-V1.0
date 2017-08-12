@@ -270,6 +270,16 @@
   Output: "In this lesson, you learned how to examine your R workspace and 
   work with the file system of your machine from within R. Thanks for playing!"
 
+
+- Class: mult_question
+  Output: Great! You have already completed the first hands on class. Would you like to inform instructor about your successful completion of 
+    this lesson via email?
+  CorrectAnswer: NULL
+  AnswerChoices: Yes; No
+  AnswerTests: notify()
+  Hint: NULL
+
+
 - Class: text
   Output: "Congratulations You have completed Part2! You can exit now
   See you next time"
