@@ -7,7 +7,7 @@
   Version: 1.0
 
 - Class: text
-  Output: Welcome to the Interactive R learning tool preperad by Kazim Topuz using swirlify package.
+  Output: Welcome to the Interactive R learning tool preperad by Kazim Topuz with the help of Sean Kross using swirlify package.
     There are 7 modules for you to finish for the lecture, and they are cumulative, so it is better for you to follow the order.
 
  
