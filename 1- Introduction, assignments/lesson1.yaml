@@ -23,25 +23,25 @@
 
 - Class: cmd_question
   Output: Let's begin with basics. To get familiar with R coding environment, start with some basic calculations. 
-          R console can be used as an interactive calculator too. Type the following in your console 4 + 5 and press Enter.
-  CorrectAnswer: 4 + 5
-  AnswerTests: omnitest(correctExpr='4 + 5')
-  Hint: Type 4 + 5 and press Enter.
+          R console can be used as an interactive calculator too. Type the following in your console 7 + 3 and press Enter.
+  CorrectAnswer: 7 + 3
+  AnswerTests: omnitest(correctExpr='7 + 3')
+  Hint: Type 7 + 3 and press Enter.
   
 - Class: cmd_question
-  Output: Let's do more practise. Try log(4+5) and see the result.
-  CorrectAnswer: log(4+5)
-  AnswerTests: omnitest(correctExpr='log (4+5)')
-  Hint: Type log (4+5) and press Enter.
+  Output: Let's do more practise. Try log(7+3) and see the result.
+  CorrectAnswer: log(7+3)
+  AnswerTests: omnitest(correctExpr='log (7+3)')
+  Hint: Type log (7+3) and press Enter.
 
 - Class: text
-  Output: R simply prints the result of 2.197225 by default. However, R is a programming
+  Output: R simply prints the result of 2.302585 by default. However, R is a programming
     language and often the reason we use a programming language as opposed to a calculator
     is to automate some process or avoid unnecessary repetition.
 
 - Class: text
   Output: In this case, we may want to use our result from above in a second calculation.
-    Instead of retyping log (4 + 5) every time we need it, we can just create a new variable
+    Instead of retyping log (7 + 3) every time we need it, we can just create a new variable
     that stores the result.
 
 - Class: text
@@ -54,11 +54,11 @@
     on the right side of the arrow to the variable name on the left side of the arrow.
 
 - Class: cmd_question
-  Output: To assign the result of log (4 + 5) to a new variable called x, you type x <-
-    log (4 + 5). This can be read as 'x gets log 4 plus 5'. Give it a try now.
-  CorrectAnswer: x <- log (4 + 5)
-  AnswerTests: any_of_exprs('x <- log (4 + 5)', 'x <- log (5 + 4)', 'x <- log (9)')
-  Hint: Type x <- 4 + 5 or x <- 5 + 4 . It's important to include a single space on each side of
+  Output: To assign the result of log (7 + 3) to a new variable called x, you type x <-
+    log (7 + 3). This can be read as 'x gets log 7 plus 3'. Give it a try now.
+  CorrectAnswer: x <- log (7 + 3)
+  AnswerTests: any_of_exprs('x <- log (7 + 3)', 'x <- log (3 + 7)', 'x <- log (10)')
+  Hint: Type x <- 7 + 3 or x <- 3 + 7 . It's important to include a single space on each side of
     the assignment operator, but do NOT put a space between the `<` and the `-` that
     form the arrow.
 
@@ -75,10 +75,10 @@
   Hint: Type x and press Enter. This will automatically print the value of x.
 
 - Class: cmd_question
-  Output: Now, store the result of x - 2 in a new variable called y.
-  CorrectAnswer: y <- x - 2
-  AnswerTests: omnitest(correctExpr='y <- x - 2')
-  Hint: Type y <- x - 2 and press Enter. Whether you use x - 2 or x-2 is personal
+  Output: Now, store the result of x - 6 in a new variable called y.
+  CorrectAnswer: y <- x - 6
+  AnswerTests: omnitest(correctExpr='y <- x - 6')
+  Hint: Type y <- x - 6 and press Enter. Whether you use x - 6 or x-6 is personal
     preference, but it's good habit to include a space on either side of the assignment
     operator.
 
@@ -96,12 +96,12 @@
 
 - Class: cmd_question
   Output: The easiest way to create a vector is with the c() function, which stands
-    for 'concatenate' or 'combine'. To create a vector containing the numbers 1.1,
-    9, and 3.14, type c(1.1, 9, 3.14). Try it now and store the result in a variable
+    for 'concatenate' or 'combine'. To create a vector containing the numbers 2.5,
+    4, and 2.39, type c(2.5, 4, 2.39). Try it now and store the result in a variable
     called z.
-  CorrectAnswer: z <- c(1.1, 9, 3.14)
-  AnswerTests: omnitest(correctExpr='z <- c(1.1, 9, 3.14)')
-  Hint: Inputting z <- c(1.1, 9, 3.14) will assign the vector (1.1, 9, 3.14) to a
+  CorrectAnswer: z <- c(2.5, 4, 2.39)
+  AnswerTests: omnitest(correctExpr='z <- c(2.5, 4, 2.39)')
+  Hint: Inputting z <- c(2.5, 4, 2.39) will assign the vector (2.5, 4, 2.39) to a
     new variable called z. Including single spaces after the commas in the vector
     is not required, but helps make your code less cluttered and more readable.
 
@@ -123,23 +123,23 @@
 
 - Class: cmd_question
   Output: You can combine vectors to make a new vector. Create a new vector that contains
-    z, 555, then z again in that order. Don't assign this vector to a new variable,
+    z, 333, then z again in that order. Don't assign this vector to a new variable,
     so that we can just see the result immediately.
-  CorrectAnswer: c(z, 555, z)
-  AnswerTests: omnitest(correctExpr='c(z, 555, z)')
-  Hint: Type c(z, 555, z). Don't create a new variable. We just want to view the result.
+  CorrectAnswer: c(z, 333, z)
+  AnswerTests: omnitest(correctExpr='c(z, 333, z)')
+  Hint: Type c(z, 333, z). Don't create a new variable. We just want to view the result.
 
 - Class: cmd_question
   Output: 'Numeric vectors can be used in arithmetic expressions. Type the following
-    to see what happens: z * 2 + 100.'
-  CorrectAnswer: z * 2 + 100
-  AnswerTests: omnitest(correctExpr='z * 2 + 100')
-  Hint: Enter z * 2 + 100, without assigning the result to a variable. The `*` symbol
+    to see what happens: z * 3 + 50.'
+  CorrectAnswer: z * 3 + 50
+  AnswerTests: omnitest(correctExpr='z * 3 + 50')
+  Hint: Enter z * 3 + 50, without assigning the result to a variable. The `*` symbol
     is used for multiplication and shares a key with the number 8 on many keyboards.
 
 - Class: text
-  Output: First, R multiplied each of the three elements in z by 2. Then it added
-    100 to each element to get the result you see above.
+  Output: First, R multiplied each of the three elements in z by 3. Then it added
+    50 to each element to get the result you see above.
 
 - Class: text
   Output: Other common arithmetic operators are `+`, `-`, `/`, and `^` (where x^2
@@ -147,10 +147,10 @@
     the absolute value, use the abs() function.
 
 - Class: cmd_question
-  Output: Take the square root of z - 1 and assign it to a new variable called my_sqrt.
-  CorrectAnswer: my_sqrt <- sqrt(z - 1)
-  AnswerTests: omnitest(correctExpr='my_sqrt <- sqrt(z - 1)')
-  Hint: Assign the result of sqrt(z - 1) to a variable called my_sqrt.
+  Output: Take the square root of z - 2 and assign it to a new variable called my_sqrt.
+  CorrectAnswer: my_sqrt <- sqrt(z - 2)
+  AnswerTests: omnitest(correctExpr='my_sqrt <- sqrt(z - 2)')
+  Hint: Assign the result of sqrt(z - 2) to a variable called my_sqrt.
 
 - Class: mult_question
   Output: Before we view the contents of the my_sqrt variable, what do you think it
@@ -168,7 +168,7 @@
   Hint: Just type my_sqrt and press Enter to view its value.
 
 - Class: text
-  Output: As you may have guessed, R first subtracted 1 from each element of z, then
+  Output: As you may have guessed, R first subtracted 2 from each element of z, then
     took the square root of each element. This leaves you with a vector of the same
     length as the original vector z.
 
@@ -205,20 +205,20 @@
     length as the longer vector.
 
 - Class: text
-  Output: When we did z * 2 + 100 in our earlier example, z was a vector of length
-    3, but technically 2 and 100 are each vectors of length 1.
+  Output: When we did z * 3 + 50 in our earlier example, z was a vector of length
+    3, but technically 3 and 50 are each vectors of length 1.
 
 - Class: text
-  Output: 'Behind the scenes, R is ''recycling'' the 2 to make a vector of 2s and
-    the 100 to make a vector of 100s. In other words, when you ask R to compute z
-    * 2 + 100, what it really computes is this: z * c(2, 2, 2) + c(100, 100, 100).'
+  Output: 'Behind the scenes, R is ''recycling'' the 3 to make a vector of 3s and
+    the 50 to make a vector of 50s. In other words, when you ask R to compute z
+    * 3 + 50, what it really computes is this: z * c(3, 3, 3) + c(50, 50, 50).'
 
 - Class: cmd_question
   Output: To see another example of how this vector 'recycling' works, try adding
-    c(1, 2, 3, 4) and c(0, 10). Don't worry about saving the result in a new variable.
-  CorrectAnswer: c(1, 2, 3, 4) + c(0, 10)
-  AnswerTests: omnitest(correctExpr='c(1, 2, 3, 4) + c(0, 10)')
-  Hint: Enter c(1, 2, 3, 4) + c(0, 10) in the console to see how R adds two vectors
+    c(1, 3, 5, 7) and c(2, 12). Don't worry about saving the result in a new variable.
+  CorrectAnswer: c(1, 3, 5, 7) + c(2, 12)
+  AnswerTests: omnitest(correctExpr='c(1, 3, 5, 7) + c(2, 12)')
+  Hint: Enter c(1, 3, 5, 7) + c(2, 12) in the console to see how R adds two vectors
     of different length. Don't assign the result to a variable.
 
 - Class: text
@@ -227,10 +227,10 @@
     a warning to let you know something fishy might be going on.
 
 - Class: cmd_question
-  Output: Try c(1, 2, 3, 4) + c(0, 10, 100) for an example.
-  CorrectAnswer: c(1, 2, 3, 4) + c(0, 10, 100)
-  AnswerTests: omnitest(correctExpr='c(1, 2, 3, 4) + c(0, 10, 100)')
-  Hint: Type c(1, 2, 3, 4) + c(0, 10, 100) to see how R handles adding two vectors,
+  Output: Try c(1, 3, 5, 7) + c(2, 12, 112) for an example.
+  CorrectAnswer: c(1, 3, 5, 7) + c(2, 12, 112)
+  AnswerTests: omnitest(correctExpr='c(1, 3, 5, 7) + c(2, 12, 112)')
+  Hint: Type c(1, 3, 5, 7) + c(2, 12, 112) to see how R handles adding two vectors,
     when the shorter vector's length does not divide evenly into the longer vector's
     length. Don't worry about assigning the result to a variable.
 
@@ -238,12 +238,12 @@
   Output: Before concluding this lesson, I'd like to show you a couple of time-saving tricks.
 
 - Class: text
-  Output: Earlier in the lesson, you computed z * 2 + 100. Let's pretend that you made a mistake and that you meant to add 1000 instead of 100. You could either re-type the expression, or...
+  Output: Earlier in the lesson, you computed z * 3 + 50. Let's pretend that you made a mistake and that you meant to add 500 instead of 50. You could either re-type the expression, or...
 
 - Class: cmd_question
-  Output: In many programming environments, the up arrow will cycle through previous commands. Try hitting the up arrow on your keyboard until you get to this command (z * 2 + 100), then change 100 to 1000 and hit Enter. If the up arrow doesn't work for you, just type the corrected command.
-  CorrectAnswer: z * 2 + 1000
-  AnswerTests: omnitest(correctExpr='z * 2 + 1000')
+  Output: In many programming environments, the up arrow will cycle through previous commands. Try hitting the up arrow on your keyboard until you get to this command (z * 3 + 50), then change 50 to 500 and hit Enter. If the up arrow doesn't work for you, just type the corrected command.
+  CorrectAnswer: z * 3 + 500
+  AnswerTests: omnitest(correctExpr='z * 3 + 500')
   Hint: If your environment does not support the up arrow feature, then just type the corrected command to move on.
 
 - Class: text
