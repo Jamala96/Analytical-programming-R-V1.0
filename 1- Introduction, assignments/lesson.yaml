@@ -3,8 +3,10 @@
   Lesson: Introduction-1.1
   Author: Kazim Topuz
   Type: Graduate
-  Organization: Center for Health Systems Innovation
+  Organization: TU
   Version: 1.0
+
+#test
 
 - Class: text
   Output: Welcome to the Interactive R learning tool preperad by Kazim Topuz with the help of Sean Kross using swirlify package.
