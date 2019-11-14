@@ -30,7 +30,7 @@
   
 - Class: cmd_question
   Output: Let's do more practise. Try log(3+7) and see the result.
-  CorrectAnswer: log(4+5)
+  CorrectAnswer: log(3+7)
   AnswerTests: omnitest(correctExpr='log (3+7)')
   Hint: Type log (3+7) and press Enter.
 
