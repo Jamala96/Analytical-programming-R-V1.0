@@ -23,7 +23,7 @@
 
 - Class: cmd_question
   Output: Let's begin with basics. To get familiar with R coding environment, start with some basic calculations. 
-          R console can be used as an interactive calculator too. Type the following in your console 4 + 5 and press Enter.
+          R console can be used as an interactive calculator too. Type the following in your console 3 + 7 and press Enter.
   CorrectAnswer: 3 + 7
   AnswerTests: omnitest(correctExpr='3 + 7')
   Hint: Type 3 + 7 and press Enter.
